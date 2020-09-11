@@ -9,7 +9,11 @@ public class VetDog
     {
         Scanner sc1 = new Scanner(System.in);
         Scanner sc2 = new Scanner(System.in);
-        Dog Pup = new Dog(sc1.toString(),sc2.nextInt());
+        String s;
+        s = sc1.nextLine();
+        int n;
+        n = sc2.nextInt();
+        Dog Pup = new Dog(s,n);
 
         return Pup;
     }
